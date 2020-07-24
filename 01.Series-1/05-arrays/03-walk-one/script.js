@@ -1,0 +1,26 @@
+// 05-arrays/01-get-element/script.js - 5.1: walk through the list
+
+
+(() => {
+    document.getElementById('run').addEventListener('click', () => {
+    let fruits = [
+        "apple",
+        "pear",
+        "raspberry",
+        "tomatos",
+        "kiwi",
+        "banana",
+        "orange",
+        "mandarin",
+        "durian",
+        "peache",
+        "grap",
+        "cherry",
+    ];
+    let arrayLength = fruits.length;
+    for (var i = 0; i < arrayLength; i++) {
+        alert(fruits[i]);
+    }
+
+});
+})();
